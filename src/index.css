@@ -5,9 +5,69 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(../src/images/pepperoni.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.homePage h1 {
+  padding-left: 40%;
+}
+
+.order {
+ padding-left: 38%;
+ font-size: 10vh;
+ 
+}
+
+.order:hover {
+  color: red;
+}
+
+.home {
+  padding-left:43%;
+ font-size: 8vh;
+}
+
+.home:hover {
+  color: blue;
+}
+
+.name {
+  padding-left:40%;
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+
+.size {
+  padding-left:40%;
+  padding-bottom: 1%;
+}
+
+.sauce {
+  padding-left:40%;
+  padding-bottom: 1%;
+}
+
+.toppings {
+  padding-left:38%;
+  padding-bottom: 1%;
+}
+
+.instructions {
+  padding-left:40%;
+  padding-bottom: 1%;
+}
+
+.button {
+  padding-left:50%;
+}
+
+button {
+  font-size: 5vh;
 }
